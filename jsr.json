@@ -1,6 +1,6 @@
 {
   "name": "@sukkaw/way",
-  "version": "2025.1116.5",
+  "version": "2025.1116.6",
   "license": "MIT",
   "exports": "./index.js"
 }
