@@ -1,0 +1,24 @@
+{
+  "name": "sukka-way",
+  "version": "2025.1116.5",
+  "type": "module",
+  "homepage": "https://github.com/rubiax0000/sukka-way#readme",
+  "bugs": {
+    "url": "https://github.com/rubiax0000/sukka-way/discussions",
+    "email": "rubiax0000@proton.me"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/rubiax0000/sukka-way.git"
+  },
+  "files": [
+    "package.json",
+    "index.js",
+    "README.md"
+  ],
+  "main": "./index.js",
+  "bin": "./index.js",
+  "dependencies": {
+    "open": "^11.0.0"
+  }
+}
