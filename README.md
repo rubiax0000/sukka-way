@@ -179,6 +179,22 @@
 
 [原文](https://t.me/c/1066867565/2192602) • [评论区](https://github.com/rubiax0000/sukka-way/discussions/3)
 
+## 你和 Vue 一样在 UI 里写带时序的代码那是你的问题
+
+<img width="496" height="662" alt="image" src="https://github.com/user-attachments/assets/d6c36371-ab96-4524-aab1-7993c88c1942" />
+
+- > 一个五年前的 class component 需要经过多少修改，才能适配 conCurREnt renDerRing 的 seRVEr CompONEnt 的 compILEr 的 Tcaer 19 呢
+- 0
+- React 19 没有 drop class component support（微笑）
+- > 不行，没有 'use client'
+- > 然后 17 开始有 batching，18 开始 batching 范围扩大
+- > 时序问题够喝一壶
+- batching 又不会 break anything
+- > 会随机 break，随机 break 某种程度上更难解决
+- 你和 Vue 一样在 UI 里写带时序的代码那是你的问题（
+
+[原文](https://t.me/c/1066867565/2193510) • [评论区](https://github.com/rubiax0000/sukka-way/discussions/5)
+
 ## 反正钱到手了
 
 <img width="425" height="246" alt="image" src="https://github.com/user-attachments/assets/ee2db1f1-8806-4863-8916-e718227f824b" />
