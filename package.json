@@ -1,6 +1,6 @@
 {
   "name": "sukka-way",
-  "version": "2025.1116.8",
+  "version": "2025.1116.9",
   "type": "module",
   "homepage": "https://github.com/rubiax0000/sukka-way#readme",
   "bugs": {
@@ -15,7 +15,7 @@
     "package.json",
     "index.js",
     "README.md",
-    "sukka.json",
+    "*.json",
     "words.png"
   ],
   "main": "./index.js",

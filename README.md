@@ -38,31 +38,36 @@
 
 这段话主要是在吐槽和讽刺一个前端开发者（@tangjinzhou），以及围绕他创业、技术选型、培训班前端现象等话题展开。总结如下：
 
-1. **讽刺创业者技术选型**  
+1. **讽刺创业者技术选型**
+
    - 该开发者原本是 Vue 社区的知名人物（写 ant-design-vue），但自己创业时却选择了 React，而不是 Vue。
    - 质疑他作为创始人，为什么没有用自己擅长的 Vue，是否是被投资人强迫，还是缺乏魄力。
    - 嘲笑他创业产品官网设计老旧，甚至不如一些个人网站现代。
 
-2. **对前端培训班现象的批评**  
+2. **对前端培训班现象的批评**
+
    - 讽刺培训班出来的前端简历造假，项目经验批发，技术栈和项目描述对不上。
    - 认为很多速成前端都是培训班流水线产物，实际能力很差。
    - 讲述自己（狐狐）面试时见过很多这样的简历，觉得很搞笑。
 
-3. **Vue 与 React 的对比**  
+3. **Vue 与 React 的对比**
+
    - 认为 Vue 太宽松，容易养成坏习惯，比如乱用 event bus、重复状态、数据流混乱。
    - React 强制单向数据流、状态衍生，能让开发者养成更好的工程习惯。
    - 讨论了一些 React 的新特性（如 useSyncExternalStore、batch），以及状态管理的细节。
 
-4. **自我吹嘘与调侃**  
+4. **自我吹嘘与调侃**
+
    - 狐狐自称 6 天自学精通 Vue，靠讲课卖模板赚了很多钱。
    - 认为自己技术很强，能准确说出 Vue 的最新改进。
    - 讽刺别人英语不好，自己能无字幕看英文课程。
 
-5. **对前端行业现状的感慨**  
+5. **对前端行业现状的感慨**
    - 认为 AI 会首先取代那些速成、能力差的前端，而自己这种“精英”不会被淘汰。
    - 对国内前端培训、简历造假、行业乱象表示无奈和嘲讽。
 
-**整体风格**：  
+**整体风格**：
+
 - 语气非常讽刺、调侃，带有强烈的优越感和鄙视链。
 - 夹杂大量技术细节和行业内幕，表达对“速成前端”、“培训班流水线”极度不屑。
 - 通过对比自己和他人，突出自己的技术能力和行业见识。
@@ -196,3 +201,42 @@
 - 难道说这是值得 thanks 的事情吗？
 
 [原文](https://t.me/c/1066867565/2191410) • [评论区](https://github.com/rubiax0000/sukka-way/discussions/2)
+
+## 傻逼之家
+
+以下为你给出的语料中，被直呼为“傻逼”的对象汇总（去重，按类别粗分，仅列出明确指向的项目/技术/公司/人）：
+
+- 浏览器/引擎/系统
+  - Safari、Firefox、Mozilla、WebKit、SpiderMonkey、JSC、XNU、APFS、macOS 内存管理、MIUI
+
+- 前端框架/库/生态
+  - React（含 React 18、React Router/DOM、React Table v7、React Query、Await 组件、NavLink）
+  - Vue（含 Vue SFC/Template/Compiler、defineComponent 类型、递归 observable、element-ui/element-plus）
+  - Next.js、Remix 3、Gatsby、Qwik、Svelte、Solid.js（及其编译器）、Preact Signals、Astro、Ember.js、ahooks、AntV、TanStack Table、lokijs、Radix Vue（语境多为配套/生态）
+
+- 构建/工具链/语言相关
+  - Vite、Webpack、Rollup/Vite 插件体系、SWC（含 swc minify）、terser
+  - TypeScript/tsc、TSDoc、ESLint、typescript-eslint、eslint-plugin-unicorn、eslint-plugin-react（ljharb 系）
+  - ESM（及其生态/兼容性）、polyfill.io、lodash 等 polyfill、core-js、globby、nx、pnpm/pnpx、corepack、node-fetch、monaco-react、JSR
+
+- 运行时/平台/网络软件
+  - Bun、Tauri、RouterOS 自带 DNS、OpenStack、Xray-Core
+
+- 网站/服务/公司/硬件
+  - 苹果/Apple（含 MBP 硬件与散热、SMC/南桥等）、Cloudflare、npm、Reddit、七牛、网易云、百度、Yandex、Fleek（静态托管）
+  - Speedtest.cn、EXAByte（域名）、F5, Inc.、Airbnb、UniFi/“BugFi”（网络设备/网关）、GitHub（Old Feed）、知乎/zhimg、搜狗、赛尔网络
+  - 运营商/网络侧：浙江反诈、中国电信浙江公司、（部分）光猫厂商：烽火/华为/中兴
+
+- 其他技术/概念（在语境中被直接点名）
+  - CGI、WebView、BGP Player、某些 Hook/API 设计、IE7/Accept-Encoding 历史兼容、HMR 实现、Happy Eyeballs 实现（Cloudflare）
+
+- 个人/ID（被点名或指代为人）
+  - ljharb、sinder/sindresorhus、鱿鱼（语境多与 Vue 相关的代称）、Ryan（DOM Expression 编译器作者）
+  - kdy（SWC 作者）、方应杭、刘太阳、oney、（某）monaco-react 作者、（部分）david-dm.org 维护者
+  - 以及泛指的前同事、装修师傅、面试官、客服、（某）OpenAI 程序员、高老板等
+
+说明：
+- 仅归纳了文本中明确指向的项目/技术/组织与人物称呼；大量对“需求/设计/代码/产品/运营商/用户/同事”等泛指群体的辱骂未逐一展开。
+- 同一对象多次出现仅计一次；涉及间接或引用他人用语的情形，若文本中明确直呼也计入。
+
+数据来自 [糊糊系列重要讲话数据库 ™️](./sukka.json)，查看[傻逼明细](./sb.json)。
