@@ -9,6 +9,7 @@
 - [评论区](https://github.com/rubiax0000/sukka-way/discussions)
 - [Telegram 频道 @sukka_way](https://t.me/sukka_way)
 - [Telegram 讨论组 @sukka_bay](https://t.me/sukka_bay)
+- [糊糊系列重要讲话数据库 ™️](./sukka.json): [unpkg](https://unpkg.com/sukka-way/sukka.json) / [jsDelivr](https://cdn.jsdelivr.net/npm/sukka-way/sukka.json)
 
 欢迎投稿。
 

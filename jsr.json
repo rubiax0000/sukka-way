@@ -1,6 +1,18 @@
 {
   "name": "@sukkaw/way",
-  "version": "2025.1116.6",
+  "version": "2025.1116.8",
   "license": "MIT",
-  "exports": "./index.js"
+  "exports": {
+    ".": "./index.js",
+    "./sukka": "./sukka.json"
+  },
+  "publish": {
+    "include": [
+      "README.md",
+      "package.json",
+      "jsr.json",
+      "index.js",
+      "sukka.json"
+    ]
+  }
 }
