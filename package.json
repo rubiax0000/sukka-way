@@ -15,7 +15,8 @@
     "package.json",
     "index.js",
     "README.md",
-    "sukka.json"
+    "sukka.json",
+    "words.png"
   ],
   "main": "./index.js",
   "bin": "./index.js",

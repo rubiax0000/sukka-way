@@ -12,7 +12,8 @@
       "package.json",
       "jsr.json",
       "index.js",
-      "sukka.json"
+      "sukka.json",
+      "words.png"
     ]
   }
 }
